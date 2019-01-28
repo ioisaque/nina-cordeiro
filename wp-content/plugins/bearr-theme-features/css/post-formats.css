@@ -1,0 +1,31 @@
+@charset "utf-8";
+.gallery-featured-carousel {
+  background: #000000;
+}
+.gallery-featured-carousel .owl-item {
+  height: 100%;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+.gallery-featured-carousel .owl-item img {
+  border-radius: 0;
+}
+.gallery-featured-carousel .owl-next {
+  opacity: 0.8!important;
+}
+.gallery-featured-carousel .owl-prev {
+  opacity: 0.8!important;
+}
+.gallery-featured-carousel .owl-dots {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding-top: 5px;
+}
+.lightbox-image {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
